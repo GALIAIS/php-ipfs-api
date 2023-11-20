@@ -3,7 +3,7 @@ IPFS API wrapper library in PHP
 
 A client library for the IPFS API.
 
-This is a complete from-the-ground-up rewrite of rannmann/php-ipfs-api.
+This is a complete from-the-ground-up rewrite of chenjia404/php-ipfs-api.
 
 -----
 
@@ -19,7 +19,7 @@ $ composer install
 ```
 
 ```PHP
-use rannmann\PhpIpfsApi\IPFS;
+use chenjia404\PhpIpfsApi\IPFS;
 
 // connect to ipfs daemon API server
 $ipfs = new IPFS("http://localhost:8080", "http://localhost:5001"); // leaving out the arguments will default to these values
